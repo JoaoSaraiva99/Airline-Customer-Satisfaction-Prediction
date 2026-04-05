@@ -95,24 +95,6 @@ The following models were tested:
 - Neural network tuning, with one tuning configuration
 - Baseline vs PCA comparison
 
-## Model Performance Comparison
-
-| Model                              | F1 Score | Accuracy | AUC    |
-|------------------------------------|----------|----------|--------|
-| XGBoost Baseline                   | 0.9590   | 0.9593   | 0.9595 |
-| Random Forest Baseline             | 0.9584   | 0.9587   | 0.9593 |
-| Neural Network Tuning              | 0.9538   | 0.9541   | 0.9542 |
-| Bagging Baseline                   | 0.9524   | 0.9527   | 0.9535 |
-| GridSearch Bagging Baseline        | 0.9524   | 0.9527   | 0.9535 |
-| Neural Network Baseline            | 0.9503   | 0.9506   | 0.9514 |
-| GridSearch Decision Tree Baseline  | 0.9454   | 0.9458   | 0.9459 |
-| Decision Tree Baseline             | 0.9386   | 0.9392   | 0.9383 |
-| Random Forest PCA                  | 0.9252   | 0.9258   | 0.9252 |
-| GridSearch Gradient Boosting (PCA) | 0.8989   | 0.8997   | 0.8993 |
-| GridSearch Decision Tree PCA       | 0.8989   | 0.8997   | 0.8993 |
-| Decision Tree PCA                  | 0.8864   | 0.8874   | 0.8864 |
-| GridSearch Random Forest           | 0.8776   | 0.8788   | 0.8772 |
-
 #### 6. Model Explainability
 - SHAP values for XGBoost
 - Permutation importance for neural networks
@@ -218,3 +200,20 @@ The company should prioritize improvements in:
 
 These are the variables with the greatest potential to improve satisfaction and customer perception in a preventive way.
 
+## Model Performance Comparison
+
+| Model                              | F1 Score | Accuracy | AUC    |
+|------------------------------------|----------|----------|--------|
+| XGBoost Baseline                   | 0.9590   | 0.9593   | 0.9595 |
+| Random Forest Baseline             | 0.9584   | 0.9587   | 0.9593 |
+| Neural Network Tuning              | 0.9538   | 0.9541   | 0.9542 |
+| Bagging Baseline                   | 0.9524   | 0.9527   | 0.9535 |
+| GridSearch Bagging Baseline        | 0.9524   | 0.9527   | 0.9535 |
+| Neural Network Baseline            | 0.9503   | 0.9506   | 0.9514 |
+| GridSearch Decision Tree Baseline  | 0.9454   | 0.9458   | 0.9459 |
+| Decision Tree Baseline             | 0.9386   | 0.9392   | 0.9383 |
+| Random Forest PCA                  | 0.9252   | 0.9258   | 0.9252 |
+| GridSearch Gradient Boosting (PCA) | 0.8989   | 0.8997   | 0.8993 |
+| GridSearch Decision Tree PCA       | 0.8989   | 0.8997   | 0.8993 |
+| Decision Tree PCA                  | 0.8864   | 0.8874   | 0.8864 |
+| GridSearch Random Forest           | 0.8776   | 0.8788   | 0.8772 |
