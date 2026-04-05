@@ -88,6 +88,8 @@ The following models were tested:
 - XGBoost
 - Neural Networks
 
+<img width="1570" height="790" alt="imagem" src="https://github.com/user-attachments/assets/aae52758-35e9-41e8-8c9d-36e3619069d6" />
+
 #### 5. Model Optimization
 - GridSearchCV applied across several models
 - Neural network tuning, with one tuning configuration
@@ -96,6 +98,8 @@ The following models were tested:
 #### 6. Model Explainability
 - SHAP values for XGBoost
 - Permutation importance for neural networks
+- 
+<img width="958" height="568" alt="imagem" src="https://github.com/user-attachments/assets/aff5e52d-99bb-4939-97c0-5baf85f2dbdb" />
 
 ## Executive Summary
 ### Overview of Findings
